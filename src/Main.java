@@ -1,6 +1,9 @@
+import java.security.PrivateKey;
+
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
 
         //class & object
         //1. Class là lớp
@@ -18,12 +21,10 @@ public class Main {
 //        System.out.println("Cân năng" + cat.height);
 //        System.out.println("Cân năng" + cat.color);
 
-        Cat cat = new Cat( 1, "gray", 3, 2);
-        cat.eat();
-        System.out.println("Cân năng " + cat.weight);
-        System.out.println("Chiều cao " + cat.height);
-        System.out.println("Màu lông " + cat.color);
-        System.out.println("Chiều dài " + cat.width);
+       Cat cat = new Cat( 1, "gray", 3, 2);
+       String info = cat.toString();
+       System.out.println(info);
+
 
         // access modifier: phạm vi hoạt động
         // public , private , protected
@@ -35,9 +36,37 @@ public class Main {
 
         //́́́́́16.09/2021
         //Tính chất
-        //Tím kế thừa
+        //Tính kế thừa
         //Tính đa hình
         //Tính trườu tượng
         //Tính đóng gói  (access modifier)
+
+
     }
+
+    //1: access modifier
+    //2 : giá trả về sau khi phước thức xử lý xong
+    //3. Tên phương thức
+    // void : là kiểu dữ liệu đặc biệt không cần trả về
+
+
+    //1   2  3 => Phương thức tính tổng
+    private static int tinhTong(int a , int b){
+        int result = a + b;
+        return result;
+
+    }
+
+    public void xuly(){
+        int ketQua = tinhTong(5,10);
+        System.out.println(ketQua);
+    }
+    public void run(){
+        System.out.println(" chạy bằng 4 chân");
+    }
+
+
+
+
+
 }
