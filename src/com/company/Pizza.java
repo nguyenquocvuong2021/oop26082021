@@ -1,4 +1,15 @@
-package com.company;
+package abstraction;
 
-public class Pizza {
+public abstract class Pizza {
+    String name;
+
+    abstract void prepare();
+    abstract void cook();
+    abstract void cut();
+    abstract void box();
+
+    String getName(){
+        return name;
+    }
+
 }

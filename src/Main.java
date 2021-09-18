@@ -1,3 +1,8 @@
+import abstraction.Pizza;
+import abstraction.PizzaCheese;
+import abstraction.PizzaStore;
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -88,6 +93,8 @@ public class Main {
 //          private static void showMessage(String message , int age) {
 //              System.out.println(message);
 
+        PizzaStore pizzaStore = new PizzaStore();
+        pizzaStore.orderPizza(new PizzaCheese());
 
 
     }

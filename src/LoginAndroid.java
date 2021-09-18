@@ -1,4 +1,4 @@
-public class LoginAndroid implements  OnLogin {
+public class LoginAndroid implements OnLogin{
     @Override
     public void onValidate() {
 
@@ -8,8 +8,6 @@ public class LoginAndroid implements  OnLogin {
     public void onSubmot() {
 
     }
-    //extend (kế thừa) : sở hữu
-    //implement (kế thừa): phải xây dựng
-
-
 }
+//extend (kế thừa) : sở hữu
+//implement (kế thừa) : phải xây dựng
