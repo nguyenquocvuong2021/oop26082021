@@ -1,5 +1,3 @@
-import java.security.PrivateKey;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -21,9 +19,9 @@ public class Main {
 //        System.out.println("Cân năng" + cat.height);
 //        System.out.println("Cân năng" + cat.color);
 
-       Cat cat = new Cat( 1, "gray", 3, 2);
-       String info = cat.toString();
-       System.out.println(info);
+//       Cat cat = new Cat( 1, "gray", 3, 2);
+//       String info = cat.toString();
+//       System.out.println(info);
 
 
         // access modifier: phạm vi hoạt động
@@ -42,7 +40,7 @@ public class Main {
         //Tính đóng gói  (access modifier)
 
 
-    }
+//    }
 
     //1: access modifier
     //2 : giá trả về sau khi phước thức xử lý xong
@@ -51,22 +49,44 @@ public class Main {
 
 
     //1   2  3 => Phương thức tính tổng
-    private static int tinhTong(int a , int b){
-        int result = a + b;
-        return result;
+//    private static int tinhTong(int a , int b){
+//        int result = a + b;
+//        return result;
+//
+//    }
+//
+//    public void xuly(){
+//        int ketQua = tinhTong(5,10);
+//        System.out.println(ketQua);
+//    }
+//    public void run(){
+//        System.out.println(" chạy bằng 4 chân");
+//    }
+
+    ///18/9/2021
+
+        // overload : phương thức nạp chồng
+        // override : phương thức ghi đè
+
+        //overload
+        //1: Khác với nhau về tham số truyền vào
+        //2: tao ra cùng một nơi
+        //Thực thi phương thức
+
+
+//          showMessage("abc");
+//          Cat cat = new Cat(1,"gray",2,3)
+//   }
+//          private static void showMessage(String message) {
+//          System.out.println(message);
+//   }
+//
+//          private static void showMessage(String message , int age) {
+//              System.out.println(message);
+
+
 
     }
-
-    public void xuly(){
-        int ketQua = tinhTong(5,10);
-        System.out.println(ketQua);
-    }
-    public void run(){
-        System.out.println(" chạy bằng 4 chân");
-    }
-
-
-
 
 
 }

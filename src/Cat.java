@@ -14,6 +14,7 @@ public class Cat extends Animal {
         System.out.println("Chạy bằng 4 chân");
     }
 
+
 //    public String info() {
 //        return "Thông tin của con Mèo " + "\n" +
 //                "Cân năng : " + weight + "\n" +
@@ -22,18 +23,31 @@ public class Cat extends Animal {
 //                "Chiều dài : " + width + "\n";
 //
 
-    @Override
-    public String toString() {
-        return "Cat{" +
-                "color='" + color + '\'' +
-                ", height=" + height +
-                ", weight=" + weight +
-                ", width=" + width +
-                '}';
-    }
-}
+//    @Override
+//    public String toString() {
+//        return "Cat{" +
+//                "color='" + color + '\'' +
+//                ", height=" + height +
+//                ", weight=" + weight +
+//                ", width=" + width +
+//                '}';
 
-      //alt + insert : hiển thị công cự
+    //alt + insert : hiển thị công cụ
+
+    // anotation : chú thích
+    // ghi đè:
+    // phương thức ghi đề được tạo ra ở 1 nơi khác và sử dụng kế thừa từ lớp cha
+    // để con ghi lại phương thức của lớp cha
+
+//
+//    @Override
+//    public void eat() {
+//        super.eat();
+    }
+
+
+
+
 
 
 
