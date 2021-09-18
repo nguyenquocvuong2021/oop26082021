@@ -32,12 +32,16 @@ public class Main {
         // 3 - ngoài package bởi lớp con
         // 4 - trong package
 
+
+        //****Quan trọng******
         //́́́́́16.09/2021
         //Tính chất
         //Tính kế thừa
         //Tính đa hình
         //Tính trườu tượng
         //Tính đóng gói  (access modifier)
+        //class: Thực thi các tính năng từ InterFace
+        //InterFace: Tạo tính năng để class thực thi xử lý
 
 
 //    }
